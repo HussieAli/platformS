@@ -1,0 +1,29 @@
+
+Instructions to Run the Assignment:
+
+
+
+You can do a Git Pull from the project directory or you can also downbload the whole source.
+once you have the whole project in your directory then follow the usual steps as follows,
+
+
+Install Node.js: If you haven't already, download and install Node.js from the official website.
+
+Both DriverNames and StreetAddresses files are available in the directory. 
+
+StreetAddresses.txt: This file should contain the street addresses of the shipment destinations, with each address on a separate line.
+DriverNames.txt: This file should contain the names of the drivers, with each name on a separate line.
+
+Open Terminal/Command Prompt: Open a terminal or command prompt in your project directory.
+You must have Node js in your local setup 
+Install File System Module (if not installed): If you haven't already installed the file system module (fs), install it using npm by running the following command:
+
+npm install fs
+
+Run the Script: Execute the script by running the following command in your terminal or command prompt:
+
+node main.js
+
+View Output: After running the script, you should see the total suitability score and the matching between shipment destinations and drivers printed in the terminal.
+
+Make sure to adjust the file names (StreetAddresses.txt and DriverNames.txt) and file paths in the code if necessary to match your actual setup.
